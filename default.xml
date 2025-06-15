@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="gitea" fetch="https://gitea.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com/" />
+
+  <!-- OnePlus 9 Pro -->
+  <project name="dev-sm8350/device_oneplus_lemonadep" path="device/oneplus/lemonadep" revision="15.2" remote="github" clone-depth="1" />
+  <project name="dev-sm8350/device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="15.2" remote="github" clone-depth="1" />
+  <project name="TogoFire/vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" revision="15.2" remote="gitea" clone-depth="1" />
+  <project name="dev-sm8350/vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="15.2" remote="github" clone-depth="1" />
+  <project name="dev-sm8350/kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="15.2" remote="github" clone-depth="1" />
+
+  <!-- OnePlus 9 Pro Extra -->
+  <project name="dev-sm8350/hardware_oplus" path="hardware/oplus" revision="15.2" remote="github" clone-depth="1" />
+  <project name="dev-sm8350/device_qcom_sepolicy_vndr_legacy-um" path="device/qcom/sepolicy/vndr/legacy-um" revision="15.2" remote="github" clone-depth="1" />
+  <project name="dev-sm8350/hardware_qcom_display" path="hardware/qcom/display" revision="15.2-sm8350" remote="github" clone-depth="1" />
+  <project name="dev-sm8350/external_avb" path="external/avb" revision="15-qpr2" remote="github" clone-depth="1" />
+  <project name="dev-sm8350/hardware_qcom_audio" path="hardware/qcom/audio" revision="15.2-sm8350" remote="github" clone-depth="1" />
+  
+</manifest>
